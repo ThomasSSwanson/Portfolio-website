@@ -1,13 +1,13 @@
 
 :root {
     --primary-color: #f64c72;
-    --secondary-color: #242582;
+    --secondary-color: #FFFC2A;
     --secondary-color-lighter: #2f2fa2;
     --muddy-purple: #553d67;
     --accent-color: #99738e;
-    --dark-gray-color: #252a34;
+    --dark-black: #090707;
     --basic-white: #fff;
-    --heading-weight: 700;
+    --heading-weight: 600;
 }
 
 
@@ -18,12 +18,11 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg-purplerain.jpg);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    color: var(--basic-white);
+    color: var(--dark-black);
 }
 
 h1 {
@@ -89,19 +88,16 @@ button:focus,
 .page-header {
     display: flex;
     width: 100%;
-    padding: 0 30px;
-    border-bottom: 1px solid var(--primary-color);
-    background-color: var(--basic-white);
+    padding: 80px 50px;
 }
 
 .page-header__logo {
-    color: var(--secondary-color);
-    font-family: 'Press Start 2P', cursive;
+    color: var(--basic-white);
     font-size: 150%;
 }
 
 .page-header__item {
-    flex: 0 1 200px;
+    flex: 0 1 350px;
 }
 
 .page-header__item:last-child {
@@ -113,9 +109,7 @@ button:focus,
 
 .navigation-list {
     list-style-type: none;
-    font-size: 120%;
-    font-weight: 800;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .navigation-list li {
@@ -130,19 +124,18 @@ button:focus,
 
 /* INDEX */
 
+.index-section {
+    height: 100vh;
+    background-size: 100% 100%;
+    background-image: url(img/simpleflatpixel.jpg);
+    
+}
+
 .profile {
     max-width: 700px;
     margin: 100px auto;
     font-weight: 600;
     text-align: left;
-}
-
-.profile a {
-    color: var(--secondary-color);
-    border-radius: 8px;
-    border: 1px solid var(--secondary-color);
-    padding: 5px;
-    background-color: var(--basic-white);
 }
 
 .profile__portrait {
@@ -223,7 +216,6 @@ button:focus,
     flex-direction: column;
     text-align: center;
     font-size: 120%;
-    font-weight: var(--heading-weight);
 }
 
 /* MEDIA QUERIES */
