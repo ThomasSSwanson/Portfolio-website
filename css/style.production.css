@@ -13,9 +13,6 @@
 }
 
 body {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/bg-purplerain.jpg);
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg-purplerain.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg-purplerain.jpg);
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -148,6 +145,12 @@ button:focus,
 }
 
 /* INDEX */
+
+.index-section {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/simpleflatpixel.jpg);
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/simpleflatpixel.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/simpleflatpixel.jpg);
+}
 
 .profile {
     max-width: 700px;
