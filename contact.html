@@ -11,67 +11,74 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
+        <div class="contact-section">
+            <header class="page-header">
+                <p class="page-header__logo page-header__item">Thomas Swanson</p>
+                <nav class="main-navigation page-header__item">
+                    <ul role="menubar" class="navigation-list">
+                        <li role="presentation">
+                            <a href="index.html" class="navigation-list__item">Home</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="about.html" class="navigation-list__item">About</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="contact.html" class="navigation-list__item navigation-list__item--active">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-        <header class="page-header">
-            <p class="page-header__logo page-header__item">Thomas Swanson</p>
-            <nav class="main-navigation page-header__item">
-                <ul role="menubar" class="navigation-list">
-                    <li role="presentation">
-                        <a href="index.html" class="navigation-list__item">Home</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="about.html" class="navigation-list__item">About</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="contact.html" class="navigation-list__item navigation-list__item--active">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+            <div class="contact-box">
+                
 
-        <h1>CONTACT</h1>
+                <div class="temp-contact contact-box__item">
+                    Thomas Swanson<br>
+                    Atlanta, Ga<br>
+                    <br>
+                    Tel<br> 
+                    <a href="tel:+1770-731-9795">770 731 9795</a><br>
+                    Skype<br>
+                    <a href="skype:live:.cid.7a6c75593c69cac0?userinfo">Thomas Swanson</a><br>
+                    Email<br>
+                    <a href="mailto:Thomassswanson@gmail.com">ThomasSSwanson@gmail.com</a>
+                </div>
 
-        <div class="temp-contact">
-            Thomas Swanson<br>
-            117 Long Leaf<br>
-            Atlanta, Ga<br>
-            <br>
-            Tel <a href="tel:+1770-731-9795">770 731 9795</a><br>
-            Skype <a href="skype:live:.cid.7a6c75593c69cac0?userinfo">Thomas Swanson</a><br>
-            <a href="mailto:Thomassswanson@gmail.com">ThomasSSwanson@gmail.com</a>
+                <form action="" method="post" id="contact-form" class="contact-box__item">
+                    <h2>Send me a message directly!</h2>
+                    <div>
+                        <label class="standard-label" for="contact-email">Email: </label>
+                        <input type="email" id="contact-email" required>
+                    </div>
+
+                    <div>
+                        <label class="standard-label" for="contact-telephone">Telephone: </label>
+                        <input type="tel" id="contact-telephone">
+                    </div>
+
+                    <div>
+                        <label class="standard-label" for="contact-message">Message: </label>
+                        <textarea id="contact-message" maxlength="240" placeholder="Your message (240 character limit)" required></textarea>
+                    </div>
+
+                    <input type="submit" value="Send message">
+                </form>
+            </div>
+
+            <div class="spacer"></div>
+
+            <footer class="page-footer">
+                <p>Find me on</p>
+                <div class="social-media"> 
+                    <img src="img/github.svg" width="30px" height="30px" alt="Github">
+                    <img src="img/twitter.svg" width="30px" height="30px" alt="Twitter">
+                    <img src="img/Linkedin.svg" width="30px" height="30px" alt="LinkedIn">
+                </div>
+            </footer>
         </div>
-
-        <form action="" method="post" id="contact-form">
-            <h2>Send me a message directly!</h2>
-            <div>
-                <label class="standard-label" for="contact-email">Email: </label>
-                <input type="email" id="contact-email" required>
-            </div>
-
-            <div>
-                <label class="standard-label" for="contact-telephone">Telephone: </label>
-                <input type="tel" id="contact-telephone">
-            </div>
-
-            <div>
-                <label class="standard-label" for="contact-message">Message: </label>
-                <textarea id="contact-message" maxlength="240" placeholder="Your message (240 character limit)" required></textarea>
-            </div>
-
-            <input type="submit" value="Send message">
-        </form>
-
-        <footer class="page-footer">
-            <p>Find me on</p>
-            <div class="social-media"> 
-                <img src="img/github.svg" width="30px" height="30px" alt="Github">
-                <img src="img/twitter.svg" width="30px" height="30px" alt="Twitter">
-                <img src="img/Linkedin.svg" width="30px" height="30px" alt="LinkedIn">
-            </div>
-        </footer>
 
         <script src="js/tota11y.min.js"></script>
     </body>
