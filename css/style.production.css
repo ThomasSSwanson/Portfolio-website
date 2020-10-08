@@ -134,14 +134,13 @@ button:focus,
 /* INDEX */
 
 .index-section {
-  height: 100vh;
   background-size: 100% 100%;
   background-image: url(img/simpleflatpixel.jpg);
 }
 
-.index-section footer {
-  margin-top: 135px;
-}
+/* .index-section footer { 
+  padding-top: 135px;
+} */
 
 .profile {
   max-width: 700px;
@@ -277,7 +276,7 @@ button:focus,
 }
 
 .spacer {
-  height: 200px;
+  height: 250px;
 }
 
 /* FOOTER */
@@ -294,37 +293,6 @@ button:focus,
   text-align: center;
   font-size: 120%;
   padding: 20px;
-}
-
-/* MEDIA QUERIES */
-
-@media all and (max-width: 500px) {
-  .grid {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-}
-
-@media all and (min-width: 500px) and (max-width: 750px) {
-  .grid {
-    -ms-grid-columns: 1fr 20px 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .grid {
-    grid-gap: 10px;
-  }
-
-  .grid__item:last-child {
-    grid-column: auto / auto;
-    grid-row: auto / auto;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
 }
 
 /* KEYFRAMES */

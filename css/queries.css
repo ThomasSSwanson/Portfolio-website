@@ -1,0 +1,43 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px - 767px) 
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+} */
+
+/* Everything under 750px */
+@media all and (max-width: 750px) {
+  .grid {
+    grid-gap: 10px;
+  }
+
+  .grid__item:last-child {
+    grid-column: auto / auto;
+    grid-row: auto / auto;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+}
+
+/* 601px - 915px */
+@media all and (min-width: 601px) and (max-width: 915px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and under) */
+@media only screen and (max-width: 992px) {
+  .index-section,
+  .about-section,
+  .work-section,
+  .contact-section {
+    background-size: cover;
+  }
+}
