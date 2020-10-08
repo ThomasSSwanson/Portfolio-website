@@ -224,7 +224,7 @@ button:focus,
 }
 
 .grid__item {
-    background-color: var(--carrot);
+    background-color: #e67d22e8;
     padding: 20px;
 }
 
