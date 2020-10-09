@@ -3,25 +3,6 @@
   .grid {
     grid-template-columns: 1fr;
   }
-
-  .profile {
-    max-width: 400px;
-    text-align: center;
-  }
-
-  .profile__portrait {
-    margin: 0 auto;
-  }
-
-  .profile__portrait,
-  .profile-text {
-    display: block;
-    float: none;
-  }
-
-  .bit-button {
-    width: 50%;
-  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px - 767px) 
@@ -41,6 +22,29 @@
 
   h1 {
     font-size: 22px;
+  }
+
+  .about-block {
+    padding: 0 30px;
+  }
+
+  .profile {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .profile__portrait {
+    margin: 0 auto;
+  }
+
+  .profile__portrait,
+  .profile-text {
+    display: block;
+    float: none;
+  }
+
+  .bit-button {
+    width: 50%;
   }
 }
 
