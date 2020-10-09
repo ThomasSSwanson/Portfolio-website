@@ -3,6 +3,25 @@
   .grid {
     grid-template-columns: 1fr;
   }
+
+  .profile {
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .profile__portrait {
+    margin: 0 auto;
+  }
+
+  .profile__portrait,
+  .profile-text {
+    display: block;
+    float: none;
+  }
+
+  .bit-button {
+    width: 50%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px - 767px) 
@@ -39,5 +58,22 @@
   .work-section,
   .contact-section {
     background-size: cover;
+  }
+
+  .spacer-contact,
+  .spacer-index {
+    height: 120px;
+  }
+
+  .contact-box {
+    flex-wrap: wrap-reverse;
+  }
+
+  .contact-box__item {
+    padding-top: 40px;
+  }
+
+  .temp-contact {
+    margin-left: 40px;
   }
 }
