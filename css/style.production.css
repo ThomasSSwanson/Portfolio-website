@@ -159,11 +159,6 @@ button:focus,
   transition: 0.2s opacity;
 }
 
-.profile a:hover,
-.profile a:focus {
-  opacity: 0.8;
-}
-
 .profile__portrait {
   float: left;
   width: 250px;
@@ -174,6 +169,11 @@ button:focus,
 .bit-button {
   width: 27%;
   height: auto;
+}
+
+.bit-button:hover,
+.bit-button:focus {
+  opacity: 0.8;
 }
 
 /* ABOUT */
