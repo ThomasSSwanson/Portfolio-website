@@ -153,7 +153,7 @@ button:focus,
   text-align: left;
 }
 
-.profile a {
+.bit-button {
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
   transition: 0.2s opacity;

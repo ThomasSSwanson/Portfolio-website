@@ -136,7 +136,7 @@ button:focus,
   text-align: left;
 }
 
-.profile a {
+.bit-button {
   transition: 0.2s opacity;
 }
 
